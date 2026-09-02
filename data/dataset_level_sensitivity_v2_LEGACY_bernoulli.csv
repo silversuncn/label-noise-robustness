@@ -1,0 +1,10 @@
+comparison,dataset,cluster_unit,condition_delta_count,mean_delta_macro_f1,dataset_level_p_raw,dataset_level_exact_assignments,dataset_level_power_note
+linear_svm_hinge_minus_softmax_logreg,ag_news,dataset,180,-0.036416681255644436,0.25,8,n=3 dataset clusters; minimum attainable two-sided raw p-value is 0.25
+linear_svm_hinge_minus_softmax_logreg,dbpedia_14,dataset,180,-0.048474864331115086,0.25,8,n=3 dataset clusters; minimum attainable two-sided raw p-value is 0.25
+linear_svm_hinge_minus_softmax_logreg,trec_qc,dataset,180,-0.05393960976021195,0.25,8,n=3 dataset clusters; minimum attainable two-sided raw p-value is 0.25
+multinomial_nb_minus_softmax_logreg,ag_news,dataset,180,0.03841671582712547,1.0,8,n=3 dataset clusters; minimum attainable two-sided raw p-value is 0.25
+multinomial_nb_minus_softmax_logreg,dbpedia_14,dataset,180,0.032548252216294794,1.0,8,n=3 dataset clusters; minimum attainable two-sided raw p-value is 0.25
+multinomial_nb_minus_softmax_logreg,trec_qc,dataset,180,-0.03979722049759449,1.0,8,n=3 dataset clusters; minimum attainable two-sided raw p-value is 0.25
+trimmed_softmax_logreg_minus_softmax_logreg,ag_news,dataset,180,-0.13188353573853437,0.25,8,n=3 dataset clusters; minimum attainable two-sided raw p-value is 0.25
+trimmed_softmax_logreg_minus_softmax_logreg,dbpedia_14,dataset,180,-0.16630470966955654,0.25,8,n=3 dataset clusters; minimum attainable two-sided raw p-value is 0.25
+trimmed_softmax_logreg_minus_softmax_logreg,trec_qc,dataset,180,-0.01701336483059296,0.25,8,n=3 dataset clusters; minimum attainable two-sided raw p-value is 0.25

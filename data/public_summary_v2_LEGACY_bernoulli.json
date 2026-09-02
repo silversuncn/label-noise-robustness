@@ -1,0 +1,196 @@
+{
+  "aggregate_rows": 480,
+  "budgets_per_class": [
+    8,
+    16,
+    64,
+    128
+  ],
+  "clean_condition_policy": "count duplicated zero-noise mechanism records once",
+  "cluster_sign_flip_statistics": [
+    {
+      "cluster_mean_delta": -0.04627705178232381,
+      "cluster_median_delta": -0.043521028991482434,
+      "clusters": 15,
+      "comparison": "linear_svm_hinge_minus_softmax_logreg",
+      "conditions_per_dataset_seed_cluster": 36,
+      "exact_assignments": 32768,
+      "holm_rank": 1,
+      "interpretation": "finite-grid cluster diagnostic; not a universal inference claim",
+      "legacy_cell_level_monte_carlo_p": 0.000244081034903588,
+      "legacy_monte_carlo_permutations": 4096,
+      "legacy_monte_carlo_resolution_floor": 0.000244081034903588,
+      "legacy_monte_carlo_seed": 31415,
+      "mean_delta": -0.0462770517823238,
+      "median_delta": -0.03228625043926053,
+      "metric": "macro_f1",
+      "negative_clusters": 15,
+      "p_holm": 0.00018310546875,
+      "p_raw": 6.103515625e-05,
+      "paired_units": 540,
+      "positive_clusters": 0,
+      "primary_test": "cluster_level_exact_sign_flip_not_cell_level_independent",
+      "zero_clusters": 0
+    },
+    {
+      "cluster_mean_delta": 0.010389249181941928,
+      "cluster_median_delta": 0.03175085120518459,
+      "clusters": 15,
+      "comparison": "multinomial_nb_minus_softmax_logreg",
+      "conditions_per_dataset_seed_cluster": 36,
+      "exact_assignments": 32768,
+      "holm_rank": 3,
+      "interpretation": "finite-grid cluster diagnostic; not a universal inference claim",
+      "legacy_cell_level_monte_carlo_p": 0.000244081034903588,
+      "legacy_monte_carlo_permutations": 4096,
+      "legacy_monte_carlo_resolution_floor": 0.000244081034903588,
+      "legacy_monte_carlo_seed": 31415,
+      "mean_delta": 0.010389249181941913,
+      "median_delta": 0.015792686096491704,
+      "metric": "macro_f1",
+      "negative_clusters": 5,
+      "p_holm": 0.30511474609375,
+      "p_raw": 0.30511474609375,
+      "paired_units": 540,
+      "positive_clusters": 10,
+      "primary_test": "cluster_level_exact_sign_flip_not_cell_level_independent",
+      "zero_clusters": 0
+    },
+    {
+      "cluster_mean_delta": -0.10506720341289467,
+      "cluster_median_delta": -0.13167235529699706,
+      "clusters": 15,
+      "comparison": "trimmed_softmax_logreg_minus_softmax_logreg",
+      "conditions_per_dataset_seed_cluster": 36,
+      "exact_assignments": 32768,
+      "holm_rank": 2,
+      "interpretation": "finite-grid cluster diagnostic; not a universal inference claim",
+      "legacy_cell_level_monte_carlo_p": 0.000244081034903588,
+      "legacy_monte_carlo_permutations": 4096,
+      "legacy_monte_carlo_resolution_floor": 0.000244081034903588,
+      "legacy_monte_carlo_seed": 31415,
+      "mean_delta": -0.10506720341289469,
+      "median_delta": -0.10371662449643387,
+      "metric": "macro_f1",
+      "negative_clusters": 15,
+      "p_holm": 0.00018310546875,
+      "p_raw": 6.103515625e-05,
+      "paired_units": 540,
+      "positive_clusters": 0,
+      "primary_test": "cluster_level_exact_sign_flip_not_cell_level_independent",
+      "zero_clusters": 0
+    }
+  ],
+  "cluster_statistics_primary_test": "cluster_level_exact_sign_flip_not_cell_level_independent",
+  "corruption_records_from_decision_rows": 1028400,
+  "dataset_level_sensitivity": {
+    "cluster_count": 3,
+    "cluster_unit": "dataset",
+    "minimum_two_sided_raw_p": 0.25,
+    "power_limitation": "n=3 dataset clusters; report as sensitivity boundary only"
+  },
+  "datasets": [
+    "ag_news",
+    "dbpedia_14",
+    "trec_qc"
+  ],
+  "degradation_rows": 384,
+  "distilbert_symmetric": {
+    "aggregate_rows": 60,
+    "best_lightweight_distribution": [
+      {
+        "best_lightweight_cells": 18,
+        "method": "softmax_logreg"
+      },
+      {
+        "best_lightweight_cells": 38,
+        "method": "multinomial_nb"
+      },
+      {
+        "best_lightweight_cells": 1,
+        "method": "linear_svm_hinge"
+      },
+      {
+        "best_lightweight_cells": 3,
+        "method": "trimmed_softmax_logreg"
+      }
+    ],
+    "budgets_per_class": [
+      8,
+      16,
+      64,
+      128
+    ],
+    "comparison_cells": 60,
+    "comparison_rows": 60,
+    "corruption_records_from_decision_rows": 128550,
+    "datasets": [
+      "ag_news",
+      "dbpedia_14",
+      "trec_qc"
+    ],
+    "decision_rows": 300,
+    "degradation_rows": 48,
+    "device": "cuda:0",
+    "distilbert_beats_best_lightweight_cells": 31,
+    "epochs": 3,
+    "mean_macro_f1_delta_vs_best_lightweight": -0.040850513595618025,
+    "median_macro_f1_delta_vs_best_lightweight": 0.009707251475415068,
+    "method": "distilbert_base_uncased",
+    "model_name": "distilbert-base-uncased",
+    "noise_rates": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "noise_type": "symmetric",
+    "prediction_rows_from_decision_rows": 410000,
+    "public_trace_policy": "Per-example prediction and corruption JSONL traces are omitted from the public bundle because aggregate, comparison, and decision data are sufficient for reported checks.",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ]
+  },
+  "largest_macro_f1_degradation": {
+    "budget_per_class": 8,
+    "dataset": "dbpedia_14",
+    "delta_macro_f1_vs_clean": -0.3265828707879161,
+    "method": "softmax_logreg",
+    "noise_rate": 0.3,
+    "noise_type": "symmetric"
+  },
+  "merged_decision_rows": 2400,
+  "methods": [
+    "linear_svm_hinge",
+    "multinomial_nb",
+    "softmax_logreg",
+    "trimmed_softmax_logreg"
+  ],
+  "noise_rates": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "noise_types": [
+    "class_conditional",
+    "symmetric"
+  ],
+  "paired_units_per_planned_comparison": 540,
+  "per_class_rows": 19200,
+  "prediction_rows_from_decision_rows": 3280000,
+  "revision": "v2_20260830",
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ]
+}

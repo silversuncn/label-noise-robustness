@@ -1,0 +1,189 @@
+{
+  "artifacts": {
+    "best_lightweight_distribution_v2.csv": {
+      "public_path": "data/best_lightweight_distribution_v2.csv",
+      "sha256": "b7fd57fe2934689dc88d76c45ca97f639accba96e2fd862369696d3856fea5bf"
+    },
+    "cluster_sign_flip_cluster_means_v2.csv": {
+      "public_path": "data/cluster_sign_flip_cluster_means_v2.csv",
+      "sha256": "3e6228d7294524289176fc7cddbe9d842a2366caca28c76e8025432dc21afffa"
+    },
+    "cluster_sign_flip_statistics_v2.csv": {
+      "public_path": "data/cluster_sign_flip_statistics_v2.csv",
+      "sha256": "2bbddaad890eb04224990dcb64926aa056f183ddbedc4cc083f4ab5d6a64d018"
+    },
+    "dataset_level_sensitivity_v2.csv": {
+      "public_path": "data/dataset_level_sensitivity_v2.csv",
+      "sha256": "cd2dfd2084cfbe0aa59479393bd23efa472f8419c0e16f88ffb8bd5c62b4878b"
+    },
+    "degradation_heatmap_symmetric_030_v2.pdf": {
+      "public_path": "figures/degradation_heatmap_symmetric_030_v2.pdf",
+      "sha256": "a9a06c0ae99d1e581b176791e8103ea5ae1ebc9e19347c011c5d11cd0491b7ae"
+    },
+    "degradation_heatmap_symmetric_030_v2.png": {
+      "public_path": "figures/degradation_heatmap_symmetric_030_v2.png",
+      "sha256": "f56a4f5137c4a09de7def4f2552322f3641d9d24ce5d58ed0c96f7a794deed73"
+    },
+    "distilbert_symmetric_comparison_to_lightweight_v2.csv": {
+      "public_path": "data/distilbert_symmetric_comparison_to_lightweight_v2.csv",
+      "sha256": "abe41193a02adea43db3bbba64e1e3ad3f0dc081e88e360b8a2995c41aaa261b"
+    },
+    "maximum_degradation_table_v2.csv": {
+      "public_path": "data/maximum_degradation_table_v2.csv",
+      "sha256": "1262dc2bedaaf78302e5fd5176735422f280b052c7ae582dc00475462a168c45"
+    },
+    "median_degradation_direction_table_v2.csv": {
+      "public_path": "data/median_degradation_direction_table_v2.csv",
+      "sha256": "9768912ef7c213922dc3b622fd799f4fdad02d45e651600fd417054a5e52870d"
+    },
+    "public_summary_v2.json": {
+      "public_path": "data/public_summary_v2.json",
+      "sha256": "09be7afdc9b00d7e6fd443625bb99d2106c401ae19990a40baa49527d8686b90"
+    },
+    "strengthened_macro_f1_curves_budget64_v2.pdf": {
+      "public_path": "figures/strengthened_macro_f1_curves_budget64_v2.pdf",
+      "sha256": "22e937823f95c2dea03522cb912779a9a077d94161fa846132e72aa91f8c04ed"
+    },
+    "strengthened_macro_f1_curves_budget64_v2.png": {
+      "public_path": "figures/strengthened_macro_f1_curves_budget64_v2.png",
+      "sha256": "11056062229da77b6f23ca2e0fed8da07a233f7d477a7b014017fed9f6ff8df5"
+    },
+    "strengthened_per_class_metrics_v2.csv": {
+      "public_path": "data/strengthened_per_class_metrics_v2.csv",
+      "sha256": "a7802153ebf2929b0b891ec332961a1c09115b30d65594cc267d7f884af79494"
+    }
+  },
+  "cluster_statistics": {
+    "cluster_count": 15,
+    "cluster_unit": "dataset_seed",
+    "conditions_per_cluster": 36,
+    "exact_sign_flip_assignments": 32768,
+    "forbidden_label_present": false,
+    "legacy_context_only": "cell-level Monte Carlo sign-flip retained only as resolution context",
+    "primary_test": "cluster_level_exact_sign_flip_not_cell_level_independent",
+    "statistics": [
+      {
+        "cluster_mean_delta": -0.04627705178232381,
+        "cluster_median_delta": -0.043521028991482434,
+        "clusters": 15,
+        "comparison": "linear_svm_hinge_minus_softmax_logreg",
+        "conditions_per_dataset_seed_cluster": 36,
+        "exact_assignments": 32768,
+        "holm_rank": 1,
+        "interpretation": "finite-grid cluster diagnostic; not a universal inference claim",
+        "legacy_cell_level_monte_carlo_p": 0.000244081034903588,
+        "legacy_monte_carlo_permutations": 4096,
+        "legacy_monte_carlo_resolution_floor": 0.000244081034903588,
+        "legacy_monte_carlo_seed": 31415,
+        "mean_delta": -0.0462770517823238,
+        "median_delta": -0.03228625043926053,
+        "metric": "macro_f1",
+        "negative_clusters": 15,
+        "p_holm": 0.00018310546875,
+        "p_raw": 6.103515625e-05,
+        "paired_units": 540,
+        "positive_clusters": 0,
+        "primary_test": "cluster_level_exact_sign_flip_not_cell_level_independent",
+        "zero_clusters": 0
+      },
+      {
+        "cluster_mean_delta": 0.010389249181941928,
+        "cluster_median_delta": 0.03175085120518459,
+        "clusters": 15,
+        "comparison": "multinomial_nb_minus_softmax_logreg",
+        "conditions_per_dataset_seed_cluster": 36,
+        "exact_assignments": 32768,
+        "holm_rank": 3,
+        "interpretation": "finite-grid cluster diagnostic; not a universal inference claim",
+        "legacy_cell_level_monte_carlo_p": 0.000244081034903588,
+        "legacy_monte_carlo_permutations": 4096,
+        "legacy_monte_carlo_resolution_floor": 0.000244081034903588,
+        "legacy_monte_carlo_seed": 31415,
+        "mean_delta": 0.010389249181941913,
+        "median_delta": 0.015792686096491704,
+        "metric": "macro_f1",
+        "negative_clusters": 5,
+        "p_holm": 0.30511474609375,
+        "p_raw": 0.30511474609375,
+        "paired_units": 540,
+        "positive_clusters": 10,
+        "primary_test": "cluster_level_exact_sign_flip_not_cell_level_independent",
+        "zero_clusters": 0
+      },
+      {
+        "cluster_mean_delta": -0.10506720341289467,
+        "cluster_median_delta": -0.13167235529699706,
+        "clusters": 15,
+        "comparison": "trimmed_softmax_logreg_minus_softmax_logreg",
+        "conditions_per_dataset_seed_cluster": 36,
+        "exact_assignments": 32768,
+        "holm_rank": 2,
+        "interpretation": "finite-grid cluster diagnostic; not a universal inference claim",
+        "legacy_cell_level_monte_carlo_p": 0.000244081034903588,
+        "legacy_monte_carlo_permutations": 4096,
+        "legacy_monte_carlo_resolution_floor": 0.000244081034903588,
+        "legacy_monte_carlo_seed": 31415,
+        "mean_delta": -0.10506720341289469,
+        "median_delta": -0.10371662449643387,
+        "metric": "macro_f1",
+        "negative_clusters": 15,
+        "p_holm": 0.00018310546875,
+        "p_raw": 6.103515625e-05,
+        "paired_units": 540,
+        "positive_clusters": 0,
+        "primary_test": "cluster_level_exact_sign_flip_not_cell_level_independent",
+        "zero_clusters": 0
+      }
+    ]
+  },
+  "created_at": "2026-08-30T23:53:43+0800",
+  "dataset_level_sensitivity": {
+    "cluster_count": 3,
+    "cluster_unit": "dataset",
+    "minimum_two_sided_raw_p": 0.25,
+    "power_limitation": "n=3 dataset clusters; report as sensitivity boundary only"
+  },
+  "distilbert_symmetric_v2": {
+    "best_lightweight_distribution": [
+      {
+        "best_lightweight_cells": 18,
+        "method": "softmax_logreg"
+      },
+      {
+        "best_lightweight_cells": 38,
+        "method": "multinomial_nb"
+      },
+      {
+        "best_lightweight_cells": 1,
+        "method": "linear_svm_hinge"
+      },
+      {
+        "best_lightweight_cells": 3,
+        "method": "trimmed_softmax_logreg"
+      }
+    ],
+    "comparison_rows": 60,
+    "distilbert_beats_best_lightweight_cells": 31,
+    "mean_macro_f1_delta_vs_best_lightweight": -0.040850513595618025,
+    "median_macro_f1_delta_vs_best_lightweight": 0.009707251475415068
+  },
+  "inputs": {
+    "aggregate_rows_v2": 480,
+    "degradation_rows_v2": 384,
+    "distilbert_aggregate_rows": 60,
+    "distilbert_degradation_rows": 48,
+    "distilbert_result_rows": 300,
+    "merged_rows_v2": 2400,
+    "per_class_rows_v2": 19200,
+    "path_policy": "public bundle omits private source roots; provenance hashes are retained"
+  },
+  "largest_macro_f1_degradation": {
+    "budget_per_class": 8,
+    "dataset": "dbpedia_14",
+    "delta_macro_f1_vs_clean": -0.3265828707879161,
+    "method": "softmax_logreg",
+    "noise_rate": 0.3,
+    "noise_type": "symmetric"
+  },
+  "status": "PASS"
+}

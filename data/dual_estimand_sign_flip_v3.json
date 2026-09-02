@@ -1,0 +1,150 @@
+{
+  "performance": {
+    "linear_svm_hinge": {
+      "cluster_means": {
+        "ag_news_seed101": -0.025338,
+        "ag_news_seed202": -0.023614,
+        "ag_news_seed303": -0.042024,
+        "ag_news_seed404": -0.041683,
+        "ag_news_seed505": -0.041322,
+        "dbpedia_14_seed101": -0.029547,
+        "dbpedia_14_seed202": -0.040125,
+        "dbpedia_14_seed303": -0.050429,
+        "dbpedia_14_seed404": -0.034415,
+        "dbpedia_14_seed505": -0.054026,
+        "trec_qc_seed101": -0.038628,
+        "trec_qc_seed202": -0.052906,
+        "trec_qc_seed303": -0.076902,
+        "trec_qc_seed404": -0.038115,
+        "trec_qc_seed505": -0.048458
+      },
+      "holm_p": 0.000183,
+      "n_cells_per_cluster": 40,
+      "n_clusters": 15,
+      "overall_mean": -0.042502,
+      "raw_p": 6.1e-05
+    },
+    "multinomial_nb": {
+      "cluster_means": {
+        "ag_news_seed101": 0.040845,
+        "ag_news_seed202": 0.044328,
+        "ag_news_seed303": 0.03875,
+        "ag_news_seed404": 0.043062,
+        "ag_news_seed505": 0.040439,
+        "dbpedia_14_seed101": 0.038512,
+        "dbpedia_14_seed202": 0.042545,
+        "dbpedia_14_seed303": 0.035923,
+        "dbpedia_14_seed404": 0.041062,
+        "dbpedia_14_seed505": 0.042842,
+        "trec_qc_seed101": -0.028971,
+        "trec_qc_seed202": -0.054513,
+        "trec_qc_seed303": -0.059168,
+        "trec_qc_seed404": -0.053294,
+        "trec_qc_seed505": -0.027725
+      },
+      "holm_p": 0.275391,
+      "n_cells_per_cluster": 40,
+      "n_clusters": 15,
+      "overall_mean": 0.012309,
+      "raw_p": 0.275391
+    },
+    "trimmed_softmax_logreg": {
+      "cluster_means": {
+        "ag_news_seed101": -0.134688,
+        "ag_news_seed202": -0.141456,
+        "ag_news_seed303": -0.136908,
+        "ag_news_seed404": -0.152068,
+        "ag_news_seed505": -0.137006,
+        "dbpedia_14_seed101": -0.168985,
+        "dbpedia_14_seed202": -0.180407,
+        "dbpedia_14_seed303": -0.175318,
+        "dbpedia_14_seed404": -0.165663,
+        "dbpedia_14_seed505": -0.160421,
+        "trec_qc_seed101": -0.036164,
+        "trec_qc_seed202": -0.018193,
+        "trec_qc_seed303": -0.015505,
+        "trec_qc_seed404": -0.036138,
+        "trec_qc_seed505": -0.02396
+      },
+      "holm_p": 0.000183,
+      "n_cells_per_cluster": 40,
+      "n_clusters": 15,
+      "overall_mean": -0.112192,
+      "raw_p": 6.1e-05
+    }
+  },
+  "robustness": {
+    "linear_svm_hinge": {
+      "cluster_means": {
+        "ag_news_seed101": 0.021299,
+        "ag_news_seed202": -0.0041,
+        "ag_news_seed303": 0.008699,
+        "ag_news_seed404": -0.007822,
+        "ag_news_seed505": 0.003373,
+        "dbpedia_14_seed101": 0.048566,
+        "dbpedia_14_seed202": 0.04749,
+        "dbpedia_14_seed303": 0.066684,
+        "dbpedia_14_seed404": 0.064506,
+        "dbpedia_14_seed505": 0.060775,
+        "trec_qc_seed101": -0.008874,
+        "trec_qc_seed202": 0.057946,
+        "trec_qc_seed303": 0.035365,
+        "trec_qc_seed404": 0.042465,
+        "trec_qc_seed505": -0.023352
+      },
+      "holm_p": 0.01593,
+      "n_cells_per_cluster": 40,
+      "n_clusters": 15,
+      "overall_mean": 0.027535,
+      "raw_p": 0.00531
+    },
+    "multinomial_nb": {
+      "cluster_means": {
+        "ag_news_seed101": 0.015826,
+        "ag_news_seed202": 0.011316,
+        "ag_news_seed303": 0.021661,
+        "ag_news_seed404": 0.024522,
+        "ag_news_seed505": 0.023545,
+        "dbpedia_14_seed101": 0.042603,
+        "dbpedia_14_seed202": 0.043269,
+        "dbpedia_14_seed303": 0.037178,
+        "dbpedia_14_seed404": 0.049194,
+        "dbpedia_14_seed505": 0.037492,
+        "trec_qc_seed101": -0.010831,
+        "trec_qc_seed202": -0.027463,
+        "trec_qc_seed303": 0.006883,
+        "trec_qc_seed404": -0.006561,
+        "trec_qc_seed505": -0.027951
+      },
+      "holm_p": 0.058838,
+      "n_cells_per_cluster": 40,
+      "n_clusters": 15,
+      "overall_mean": 0.016046,
+      "raw_p": 0.029419
+    },
+    "trimmed_softmax_logreg": {
+      "cluster_means": {
+        "ag_news_seed101": -0.076355,
+        "ag_news_seed202": -0.066912,
+        "ag_news_seed303": -0.066665,
+        "ag_news_seed404": -0.101548,
+        "ag_news_seed505": -0.065254,
+        "dbpedia_14_seed101": 0.040538,
+        "dbpedia_14_seed202": 0.037183,
+        "dbpedia_14_seed303": 0.045489,
+        "dbpedia_14_seed404": 0.03751,
+        "dbpedia_14_seed505": 0.04966,
+        "trec_qc_seed101": -0.03754,
+        "trec_qc_seed202": -0.070493,
+        "trec_qc_seed303": -0.00561,
+        "trec_qc_seed404": -0.017416,
+        "trec_qc_seed505": -0.026412
+      },
+      "holm_p": 0.132568,
+      "n_cells_per_cluster": 40,
+      "n_clusters": 15,
+      "overall_mean": -0.021588,
+      "raw_p": 0.132568
+    }
+  }
+}

@@ -1,0 +1,5 @@
+method,dataset,budget_per_class,noise_rate,noise_type,delta_macro_f1_vs_clean
+softmax_logreg,dbpedia_14,8,0.3,symmetric,-0.3265828707879161
+multinomial_nb,dbpedia_14,8,0.3,symmetric,-0.2524785482482427
+linear_svm_hinge,ag_news,64,0.3,symmetric,-0.22514585564976347
+trimmed_softmax_logreg,ag_news,128,0.3,class_conditional,-0.2965057395056411

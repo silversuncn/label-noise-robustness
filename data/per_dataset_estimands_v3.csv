@@ -1,0 +1,10 @@
+dataset,method,perf_mean,robust_mean,n_cells
+ag_news,linear_svm_hinge,-0.0348,0.0043,200
+ag_news,multinomial_nb,0.0415,0.0194,200
+ag_news,trimmed_softmax_logreg,-0.1404,-0.0753,200
+dbpedia_14,linear_svm_hinge,-0.0417,0.0576,200
+dbpedia_14,multinomial_nb,0.0402,0.0419,200
+dbpedia_14,trimmed_softmax_logreg,-0.1702,0.0421,200
+trec_qc,linear_svm_hinge,-0.0510,0.0207,200
+trec_qc,multinomial_nb,-0.0447,-0.0132,200
+trec_qc,trimmed_softmax_logreg,-0.0260,-0.0315,200

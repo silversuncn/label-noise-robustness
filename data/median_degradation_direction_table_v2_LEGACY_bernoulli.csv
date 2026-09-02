@@ -1,0 +1,9 @@
+method,noise_type,n_conditions,median_delta_macro_f1_vs_clean,mean_delta_macro_f1_vs_clean,improved_count,unchanged_count,degraded_count
+linear_svm_hinge,class_conditional,48,-0.04385117736235869,-0.06037451341308748,3,0,45
+linear_svm_hinge,symmetric,48,-0.05214551974438164,-0.06866532221791456,4,0,44
+multinomial_nb,class_conditional,48,-0.06769007726608484,-0.07765459355696568,0,0,48
+multinomial_nb,symmetric,48,-0.04814524376105794,-0.07065085954999578,1,0,47
+softmax_logreg,class_conditional,48,-0.0675474221442397,-0.09245764755695984,0,0,48
+softmax_logreg,symmetric,48,-0.058038963612937644,-0.08572936932773767,1,0,47
+trimmed_softmax_logreg,class_conditional,48,-0.10987021860144797,-0.11073269826362298,2,0,46
+trimmed_softmax_logreg,symmetric,48,-0.09491734654432488,-0.1013578918119064,6,0,42

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this reproduction bundle, please cite the associated manuscript."
+title: "Label-Noise Robustness of Lightweight Text Classifiers under Limited Supervision"
+authors:
+  - family-names: "Sun"
+    given-names: "Yaowen"
+year: 2026
+license: "MIT"

@@ -1,0 +1,35 @@
+{
+  "clean_condition_policy": "count once",
+  "statistics": [
+    {
+      "comparison": "linear_svm_hinge_minus_softmax_logreg",
+      "metric": "macro_f1",
+      "paired_units": 540,
+      "mean_delta": -0.13898249731501844,
+      "median_delta": -0.09673379752550379,
+      "permutation_p": 0.000244081034903588,
+      "holm_p": 0.000732243104710764,
+      "significant_at_0_05": true
+    },
+    {
+      "comparison": "multinomial_nb_minus_softmax_logreg",
+      "metric": "macro_f1",
+      "paired_units": 540,
+      "mean_delta": 0.01038924918194193,
+      "median_delta": 0.015792686096491704,
+      "permutation_p": 0.000244081034903588,
+      "holm_p": 0.000732243104710764,
+      "significant_at_0_05": true
+    },
+    {
+      "comparison": "trimmed_softmax_logreg_minus_softmax_logreg",
+      "metric": "macro_f1",
+      "paired_units": 540,
+      "mean_delta": -0.10506720341289465,
+      "median_delta": -0.10371662449643387,
+      "permutation_p": 0.000244081034903588,
+      "holm_p": 0.000732243104710764,
+      "significant_at_0_05": true
+    }
+  ]
+}

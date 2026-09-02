@@ -1,0 +1,5 @@
+method,best_lightweight_cells
+softmax_logreg,18
+multinomial_nb,38
+linear_svm_hinge,1
+trimmed_softmax_logreg,3
